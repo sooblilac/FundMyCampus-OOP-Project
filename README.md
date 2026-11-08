@@ -4,13 +4,13 @@ FundMyCampus is a Java console-based system wherein college students can check t
 
 Most college students are unaware of the scholarships they are eligible for. Scholarship information is scattered across websites, making it difficult for students to find educational assistance and often causing them to overlook opportunities best suited to their needs. This project aims to build a system that will help incoming and current college students to identify scholarships that would best fit their qualifications, ensuring that they would not forego financial aid due to lack of references.
 
-✿ **College students** are encouraged to use this system, aiding them in the search of available and bet suited scholarship for them.
+✿ **College students** are encouraged to use this system, aiding them in the search of available and best suited scholarship for them.
 
 ===========================================
 ### FundMyCollege's Main Features .✦ ݁˖
 ✧ Scholarship Matching - Students doesn't need much browsing with **FundMyCampus**! After filling in the information needed the system will immediately evaluate their eligibility for scholarship. Afterwards, assume that they are eligible, the system then maps the top 3 scholarship for the student.
 
-✧ Documents - After having the top 3 scholarship that the student is most eligible for, they can now check the document for each one, which gives the student an information what document or requirement they must get.
+✧ Documents Checker - After having the top 3 scholarship that the student is most eligible for, they can now check the document for each one, which gives the student an information what document or requirement they must get.
 
 ===========================================
 ### Technologies behind FundMyCampus .✦ ݁˖
@@ -42,10 +42,13 @@ However, these roles are **not** fixed to them. Therese can be in the documentat
 ### How to Use FundMyCampus? .✦ ݁˖
 A friendly guide on how to use our system!
 
-1. Fill in the information needed of the system. Make sure to put correct data to avoid mismatching of the scholarship.
-2. After the system runs, wait for it! Don't quit the terminal!
-3. The system will show the top three scholarship that you are **eligible** in. It will ask you what scholarship you want to check out! Make sure to choose between the three. But do not worry, you can also check the other two!
-4. After checking all of them, assume that you did, you can now close the terminal. Or, if you wish, copy the requirements from the console and paste it in your notes so that you don't have to check everytime.
+✧ Fill in the information needed of the system. Make sure to put correct data to avoid mismatching of the scholarship.
+
+✧ After the system runs, wait for it! Don't quit the terminal!
+
+✧ The system will show the top three scholarship that you are **eligible** in. It will ask you what scholarship you want to check out! Make sure to choose between the three. But do not worry, you can also check the other two!
+
+✧ After checking all of them, assume that you did, you can now close the terminal. Or, if you wish, copy the requirements from the console and paste it in your notes so that you don't have to check everytime.
 
 ===========================================
 ### Snippets of FundMyCampus ˗ˏˋ✩ˎˊ˗
