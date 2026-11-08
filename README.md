@@ -76,11 +76,19 @@ If the team members wished to expound FundMyCampus' use, they might implement:
 
 ==========================================
 ### Project Contributors .✦ ݁˖
-These are the tools that served great purpose to the project, and a persona that helped the creation of **FundMyCampus**!
+These are the tools that served great purpose to the project, and a personilty that helped the creation of **FundMyCampus**!
 
 **Personality**
 
 ✧ Ms. Fatima Marie P. Agdon, MSCS - the team's professor in Object-Oriented Programming course. The person that guided the team all throughout the making of FundMyCampus.
+
+✧ Ma. Ysabelle P. Ferrer
+
+✧ Mary Therese Unica I. Galvez
+
+✧ Desiree C. Tabura
+
+
 
 **Tools**
 
