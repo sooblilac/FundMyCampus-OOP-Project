@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 
 public class Student {
         private String studentName;
@@ -77,7 +78,8 @@ public class Student {
         }
 
         public String getStudentInformation() {
-            return "Student Name: " + studentName + "\n" +
+            return "\n========================\n" +
+                    "Hello, " + studentName + "!" + "\n" +
                     "GWA: " + studentGWA + "\n" +
                     "Year Level: " + yearLevel + "\n" +
                     "Program of Study: " + programOfStudy + "\n" +
