@@ -1,5 +1,6 @@
 import java.util.List;
-
+/*This is for scholarships like DOST-SEI, etc etc. Add kau ng mga conditions if ever man na 
+     may makita kau na wala here tapos idadagdag niu ueue*/
 public class AcademicScholarship extends Scholarship{
 	private int maxYearLevel;
 

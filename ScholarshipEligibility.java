@@ -2,6 +2,8 @@ import java.util.Scanner;
 // import java.util.ArrayList;
 // import java.util.List;
 
+/* This is the main class for checking scholarship eligibility */
+
 public class ScholarshipEligibility {
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
@@ -42,8 +44,7 @@ public class ScholarshipEligibility {
 
 		Student s = new Student(studentName, studentGWA, yearLevel, programOfStudy, annualFamilyIncome, disciplinaryRecord, disabilityStatus, ethnicGroup, parentStatus);
 		System.out.print(s.getStudentInformation());
-		// Student student = new Student(studentName, studentGWA, yearLevel, programOfStudy, annualFamilyIncome, disciplinaryRecord, disabilityStatus, ethnicGroup);
-		
+		// This is for test run only!!
 
 	}
 }

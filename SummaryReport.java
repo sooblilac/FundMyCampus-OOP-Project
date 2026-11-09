@@ -1,5 +1,4 @@
-/* Guys, I have no idea kung ano ilalagay here, since we can display this sa Main function :(
-	I just realized it now ueueue... should we remove this class?
+/* winowork ko siya sa sublime guys kaya e2 muna sa vscode gyghuhuhuhu
 */
 import java.util.List;
 
