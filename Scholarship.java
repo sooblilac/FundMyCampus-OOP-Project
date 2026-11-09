@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Scholarship {
@@ -21,8 +22,17 @@ public class Scholarship {
         return List.copyOf(scholarshipRequirements);
     }
 
-    public boolean isEligible(Student student) {
-        return student.getStudentGWA() <= minGWA && student.getAnnualFamilyIncome() <= maxIncome;
+    public List<String> getQualifications(Student s){
+        List<String> qualifications = new ArrayList<>();
+
+        qualifications.add(String.format("GWA of %.2f meets the required %.2f or better", s.getStudentGWA(), minGWA));
+        qualifications.add(String.format("Household income of PHP %,.2f is within the PHP %,.2f limit",
+                s.getAnnualFamilyIncome(), maxIncome));
+        return qualifications;
+    }
+
+    public boolean evaluateEligibility(Student s) {
+        return s.getStudentGWA() <= minGWA && s.getAnnualFamilyIncome() <= maxIncome;
     }
 
 }

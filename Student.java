@@ -1,5 +1,3 @@
-import java.util.InputMismatchException;
-
 public class Student {
         private String studentName;
         private double studentGWA;
@@ -9,9 +7,10 @@ public class Student {
         private char disabilityStatus;
         private char ethnicGroup;
         private String programOfStudy;
+        private char parentStatus;
 
         public Student(String studentName, double studentGWA, int yearLevel, String programOfStudy, double annualFamilyIncome, 
-            String disciplinaryRecord, char disabilityStatus, char ethnicGroup) {
+            String disciplinaryRecord, char disabilityStatus, char ethnicGroup, char parentStatus) {
             setStudentName(studentName);
             setStudentGWA(studentGWA);
             setYearLevel(yearLevel);
@@ -20,6 +19,7 @@ public class Student {
             setDisciplinaryRecord(disciplinaryRecord);
             setDisabilityStatus(disabilityStatus);
             setEthnicGroup(ethnicGroup);
+            setParentStatus(parentStatus);
         }
 
         // setters w/ validators
@@ -47,11 +47,11 @@ public class Student {
         public void setProgramOfStudy(String programOfStudy){
             if(programOfStudy == null || programOfStudy.isBlank())
                 throw new IllegalArgumentException("Program cannot be blank.");
-            this.programOfStudy = programOfStudy;
+            this.programOfStudy = programOfStudy.trim();
         }
 
         public void setAnnualFamilyIncome(double annualFamilyIncome){
-            if(annualFamilyIncome <= 0)
+            if(annualFamilyIncome < 0)
                 throw new IllegalArgumentException("Annual family income cannot be negative.");
             this.annualFamilyIncome = annualFamilyIncome;
 
@@ -77,6 +77,13 @@ public class Student {
             this.ethnicGroup = group;
         }
 
+        public void setParentStatus(char parentStatus){
+            char parent = Character.toUpperCase(parentStatus);
+            if(parent != 'Y' && parent != 'N')
+                throw new IllegalArgumentException("It must be 'Y' or 'N'.");
+            this.parentStatus = parent;
+        }
+
         public String getStudentInformation() {
             return "\n========================\n" +
                     "Hello, " + studentName + "!" + "\n" +
@@ -86,7 +93,8 @@ public class Student {
                     "Annual Family Income: Php " + annualFamilyIncome + "\n" +
                     "Disciplinary Record: " + disciplinaryRecord + "\n" +
                     "Socioeconomic Status:\nDisability Status: " + disabilityStatus + "\n" +
-                    "Ethnic Group: " + ethnicGroup;
+                    "Ethnic Group: " + ethnicGroup + "\n" +
+                    "Parent Status (OFW?): " + parentStatus;
         }
 
         // getters
@@ -120,6 +128,10 @@ public class Student {
 
         public char getEthnicGroup() {
             return ethnicGroup;
+        }
+
+         public char getParentStatus() {
+            return parentStatus;
         }
 
     
