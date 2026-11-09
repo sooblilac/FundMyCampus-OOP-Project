@@ -33,16 +33,16 @@ public class ScholarshipEligibility {
                     System.out.println("\n----------------------------------------");
                     System.out.println("        GWA GRADE CONVERSION GUIDE");
                     System.out.println("----------------------------------------");
-                    System.out.println("   1.00  |   98  -  100[cite: 1]");
-                    System.out.println("   1.25  |   94  -   97[cite: 1]");
-                    System.out.println("   1.50  |   90  -   93[cite: 1]");
-                    System.out.println("   1.75  |   88  -   89[cite: 1]");
-                    System.out.println("   2.00  |   85  -   87[cite: 1]");
-                    System.out.println("   2.25  |   83  -   84[cite: 1]");
-                    System.out.println("   2.50  |   80  -   82[cite: 1]");
-                    System.out.println("   2.75  |   78  -   79[cite: 1]");
-                    System.out.println("   3.00  |   75  -   77[cite: 1]");
-                    System.out.println("   5.00  |   Below 70 [cite: 1]");
+                    System.out.println("   1.00  |   98  -  100");
+                    System.out.println("   1.25  |   94  -   97");
+                    System.out.println("   1.50  |   90  -   93");
+                    System.out.println("   1.75  |   88  -   89");
+                    System.out.println("   2.00  |   85  -   87");
+                    System.out.println("   2.25  |   83  -   84");
+                    System.out.println("   2.50  |   80  -   82");
+                    System.out.println("   2.75  |   78  -   79");
+                    System.out.println("   3.00  |   75  -   77");
+                    System.out.println("   5.00  |   Below 70");
                     System.out.println("----------------------------------------\n");
                 }
 
