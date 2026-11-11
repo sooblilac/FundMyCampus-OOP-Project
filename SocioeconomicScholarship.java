@@ -8,9 +8,36 @@ public class SocioeconomicScholarship extends Scholarship{
 
 	private int [] acceptedCategories;
 
-	public SocioeconomicScholarship(String scholarshipName, double minGWA, double maxIncome, List<String>requirements, int[] acceptedCategories){
+	public SocioeconomicScholarship(String scholarshipName, double minGWA, double maxIncome, List<String>requirements, int[] acceptedCategories) {
         super(scholarshipName, minGWA, maxIncome, requirements);
-        this.acceptedCategories = acceptedCategories;
+        this.acceptedCategories = new int[acceptedCategories.length];
+
+        for (int i = 0; i < acceptedCategories.length; i++) {
+        	this.acceptedCategories[i] = acceptedCategories[i];
+        }
     }
 
+    public boolean checkCategory(Student s) {
+    	for (int category : acceptedCategories) {
+    		if (category == PersonWithDisability && s.getDisabilityStatus() == 'Y') {
+    			return true;
+    		}
+
+    		else if (category == EthnicGroup && s.getEthnicGroup() == 'Y') {
+    			return true;
+    		}
+
+    		else if (category == OFWDependent && s.getParentStatus() == 'Y') {
+    			return true;
+    		}
+    	}
+
+    	return false;
+    }
+
+    @Override
+    public boolean evaluateEligibility(Student s) {
+
+        return super.evaluateEligibility(s) && checkCategory(s);
+    }
 }
