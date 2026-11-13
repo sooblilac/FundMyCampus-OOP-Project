@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FundMyCampus: A College Scholarship Eligibility System ✧
 
 FundMyCampus is a Java console-based system wherein college students can check their eligibility for specific scholarships by filling in the required information, such as GWA, Family Income, etc., requested by the system. Students can check the required documents of certain scholarships after the system evaluated them based on their inputs.
@@ -99,6 +98,3 @@ These are the tools that served great purpose to the project, and a personilty t
 ✧ geeksforgeeks
 
 ✧ w3schools
-=======
-"#CSV_LAAI" 
->>>>>>> 669124e (first commit)
