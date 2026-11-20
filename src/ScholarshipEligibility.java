@@ -79,65 +79,79 @@ public class ScholarshipEligibility {
        List<Scholarship> scholarships = new ArrayList<>();
 
        // Academic Scholarships
-
+    
+       scholarships.add(
         new AcademicScholarship(
-            "DOST-SEI",
-            2.50,
-            1,
-            1,
-            ScholarshipData.getDOSTPrograms(),
-            ScholarshipData.getDOSTSEIRequirements()
+                "DOST-SEI",
+                2.50,
+                1,
+                1,
+                ScholarshipData.getDOSTPrograms(),
+                ScholarshipData.getDOSTSEIRequirements()
+            )
         );
 
-       new AcademicScholarship(
-           "DOST-JLSS",
-           2.50,
-           3,
-           4,
-           ScholarshipData.getDOSTPrograms(),
-           ScholarshipData.getJLSSRequirements()
+       scholarships.add(
+           new AcademicScholarship(
+               "DOST-JLSS",
+               2.50,
+               3,
+               4,
+               ScholarshipData.getDOSTPrograms(),
+               ScholarshipData.getJLSSRequirements()
+           )
        );
 
-       new AcademicScholarship(
-            "CHED",
-            1.50,
-            1,
-            1,
-            ScholarshipData.getDOSTPrograms(),
-            ScholarshipData.getCHEDRequirements()
+       scholarships.add(
+            new AcademicScholarship(
+                "CHED",
+                1.50,
+                1,
+                1,
+                ScholarshipData.getDOSTPrograms(),
+                ScholarshipData.getCHEDRequirements()
+            )
         );
        // OFW Scholarships
 
-       new OFWScholarship(
-            "EDSP Category 1",
-            2.50,
-            1,
-            1,
-            ScholarshipData.getEDSP1Requirements()
-       );
-
-       new OFWScholarship(
-            "EDSP Category 2",
-            2.50,
-            2,
-            5,
-            ScholarshipData.getEDSP2Requirements()
-       );
-
-       new OFWScholarship(
-            "ODSP Category 1",
-            2.75,
-            1,
-            1,
-            ScholarshipData.getODSP1Requirements()
+       scholarships.add(
+            new OFWScholarship(
+                "EDSP Category 1",
+                2.50,
+                1,
+                1,
+                ScholarshipData.getEDSP1Requirements()
+            )
         );
 
-        new OFWScholarship(
-            "ODSP Category 2",
-            3.00,
-            2,
-            5,
-            ScholarshipData.getODSP2Requirements()
+       scholarships.add(
+            new OFWScholarship(
+                "EDSP Category 2",
+                2.50,
+                2,
+                5,
+                ScholarshipData.getEDSP2Requirements()
+            )
+        );
+
+       scholarships.add(
+            new OFWScholarship(
+                "ODSP Category 1",
+                2.75,
+                1,
+                1,
+                ScholarshipData.getODSP1Requirements()
+            )
+        );
+
+        scholarships.add(
+            new OFWScholarship(
+                "ODSP Category 2",
+                3.00,
+                2,
+                5,
+                ScholarshipData.getODSP2Requirements()
+            )
         );
 
        scholarships.add(

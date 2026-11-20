@@ -180,7 +180,7 @@ public class ScholarshipData {
         return List.of(
             "Student ID",
             "Certificate of Good Moral",
-            "Certificate of True Copy Grades"
+            "Certificate of True Copy Grades",
             "Transcript of Records",
             "Certificate of Enrollment",
             "Certificates of Leadership and Awards"
@@ -232,6 +232,10 @@ public class ScholarshipData {
             "Certificate of Good Moral Character"
         );
     }
+
+    // ==========================
+    // DOST PROGRAMS
+    // ==========================
 
     public static List<String> getDOSTPrograms() {
 
@@ -373,6 +377,10 @@ public class ScholarshipData {
         );
     }
 
+    // ==========================
+    // TULONG DUNONG PROGRAMS
+    // ==========================
+
 
     public static List<String> getTulongDunongPrograms() {
 
@@ -386,70 +394,70 @@ public class ScholarshipData {
             "Doctor of Dental Medicine",
             "BS Criminology",
             "BS Forensic Sciences",
-            "Industrial Security Administration"
-            "Geology",
-            "Human Biology",
-            "Molecular Biology and Biotechnology",
-            "Marine Biology",
-            "Marine Science",
-            "Environmental Science",
+            "BS Industrial Security Administration",
+            "BS Geology",
+            "BS Human Biology",
+            "BS Molecular Biology and Biotechnology",
+            "BS Marine Biology",
+            "BS Marine Science",
+            "BS Environmental Science",
             "Disaster Risk Management/Climate Change",
-            "Zoology",
-            "Civil Technology",
-            "Mechatronics Engineering Technology",
-            "Electronics Technology",
-            "Mechanical Technology",
-            "Electrical Technology",
-            "Industrial Technology",
-            "Engineering Technology",
+            "BS Zoology",
+            "BS Civil Technology",
+            "BS Mechatronics Engineering Technology",
+            "BS Electronics Technology",
+            "BS Mechanical Technology",
+            "BS Electrical Technology",
+            "BS Industrial Technology",
+            "BS Engineering Technology",
             "Cyber Security",
-            "Information Technology",
-            "Computer Science",
-            "Information System",
-            "Library and Information Science",
-            "Entertainment and Multimedia Computing",
-            "Automotive Technology",
-            "Aviation Technology"
-            "Agricultural and Biosystems Engineering",
-            "Architecture",
-            "Ceramic Engineering",
-            "Chemical Engineering",
-            "Civil Engineering",
-            "Computer Engineering",
-            "Electrical Engineering",
-            "Electronics Engineering/Electronics and Communications Engineering",
-            "Food Engineering",
-            "Geodetic Engineering",
-            "Industrial Engineering",
-            "Manufacturing/Production Engineering",
-            "Marine Engineering",
-            "Marine Transportation",
-            "Materials Engineering",
-            "Mechanical Engineering",
-            "Mechatronics Engineering",
-            "Metallurgical Engineering",
-            "Mining Engineering",
-            "Petroleum Engineering",
-            "Robotics Engineering",
-            "Sanitary Engineering",
-            "Structural Engineering",
-            "Agriculture Technology",
-            "Agriculture and its hybrid programs",
-            "Agro-Forestry",
-            "Animal Husbandry",
-            "Animal Science",
+            "BS Information Technology",
+            "BS Computer Science",
+            "BS Information System",
+            "BS Library and Information Science",
+            "BS Entertainment and Multimedia Computing",
+            "BS Automotive Technology",
+            "BS Aviation Technology",
+            "BS Agricultural and Biosystems Engineering",
+            "BS Architecture",
+            "BS Ceramic Engineering",
+            "BS Chemical Engineering",
+            "BS Civil Engineering",
+            "BS Computer Engineering",
+            "BS Electrical Engineering",
+            "BS Electronics Engineering",
+            "BS Food Engineering",
+            "BS Geodetic Engineering",
+            "BS Industrial Engineering",
+            "BS Manufacturing Engineering",
+            "BS Marine Engineering",
+            "BS Marine Transportation",
+            "BS Materials Engineering",
+            "BS Mechanical Engineering",
+            "BS Mechatronics Engineering",
+            "BS Metallurgical Engineering",
+            "BS Mining Engineering",
+            "BS Petroleum Engineering",
+            "BS Robotics Engineering",
+            "BS Sanitary Engineering",
+            "BS Structural Engineering",
+            "BS Agriculture Technology",
+            "BS Agriculture and its hybrid programs",
+            "BS Agro-Forestry",
+            "BS Animal Husbandry",
+            "BS Animal Science",
             "Doctor of Veterinary Medicine",
-            "Fisheries",
-            "Food Technology/Science",
-            "Forestry",
-            "Horticulture",
-            "Statistics/Applied Statistics",
-            "Math/Applied Math",
-            "Business Administration with Specialization/Major/Track in Business Analytics",
-            "Business Administration with Specialization/Major/Track in Business Processing Outsource",
-            "Hospitality Management/Hotel and Restaurant Management",
-            "Tourism/Travel Management"
-        )
+            "BS Fisheries",
+            "BS Food Technology/Science",
+            "BS Forestry",
+            "BS Horticulture",
+            "BS Statistics/Applied Statistics",
+            "BS Math/Applied Math",
+            "BS Business Administration with Specialization/Major/Track in Business Analytics",
+            "BS Business Administration with Specialization/Major/Track in Business Processing Outsource",
+            "BS Hospitality Management/Hotel and Restaurant Management",
+            "BS Tourism/Travel Management"
+        );
     }
 
     public static List<String> getGokongweiPrograms() {
@@ -471,24 +479,24 @@ public class ScholarshipData {
             "BS Pharmacy",
             "BS Radiologic Technology",
             "Doctor of Veterinary Medicine"
-        )
+        );
     }
 
     public static List<String> getMercuryDrugPrograms() {
 
         return List.of(
-            "Financial Management",
-            "Architecture",
-            "Business Administration",
-            "Civil Engineering",
-            "Computer Engineering",
-            "Electrical Engineering",
-            "Industrial Engineering",
-            "Mechanical Engineering",
-            "Information Technology",
-            "Mathematics",
-            "Pharmacy",
-            "Psychology"
-        )
+            "BS Financial Management",
+            "BS Architecture",
+            "BS Business Administration",
+            "BS Civil Engineering",
+            "BS Computer Engineering",
+            "BS Electrical Engineering",
+            "BS Industrial Engineering",
+            "BS Mechanical Engineering",
+            "BS Information Technology",
+            "BS Mathematics",
+            "BS Pharmacy",
+            "BS Psychology"
+        );
     }
 }
