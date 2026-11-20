@@ -499,4 +499,27 @@ public class ScholarshipData {
             "BS Psychology"
         );
     }
+
+    public static List<String> getSMPrograms() {
+
+        return List.of(
+            "BS Accountancy",
+            "BS Accounting Information Systems",
+            "BS Accounting Technology",
+            "BS Digital Marketing",
+            "BS Internal Auditing",
+            "BSBA Financial Management",
+            "BSBA Management Accounting",
+            "BS Civil Engineering",
+            "BS Computer Engineering",
+            "BS Electrical Engineering",
+            "BS in Electronics and Communications Engineering/ BS In Electronics Engineering/BS Electronics Engineering",
+            "BS Mechanical Engineering",
+            "BS Computer Science",
+            "BS Information Technology",
+            "Bachelor of Elementary Education",
+            "Bachelor of Secondary Education Major in Biology, Chemistry, General Sciences, Physics, Mathematics, English",
+            "BS Architecture (NU Campuses only)"
+        );
+    }
 }

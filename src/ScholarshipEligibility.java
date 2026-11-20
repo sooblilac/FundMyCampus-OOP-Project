@@ -102,14 +102,15 @@ public class ScholarshipEligibility {
            )
        );
 
+
        scholarships.add(
             new AcademicScholarship(
-                "CHED",
+                "SM Foundation",
                 1.50,
                 1,
                 1,
-                ScholarshipData.getDOSTPrograms(),
-                ScholarshipData.getCHEDRequirements()
+                ScholarshipData.getSMPrograms(),
+                ScholarshipData.getSMRequirements()
             )
         );
        // OFW Scholarships
@@ -169,6 +170,9 @@ public class ScholarshipEligibility {
        scholarships.add(
            new SocioeconomicScholarship(
                "CHED Scholarship",
+               1.50,
+               1,
+               1,
                400000,
                ScholarshipData.getCHEDRequirements()
            )
@@ -177,7 +181,10 @@ public class ScholarshipEligibility {
        scholarships.add(
            new SocioeconomicScholarship(
                "Tulong Dunong",
-               300000,
+               3.00,
+               1,
+               4,
+               400000,
                ScholarshipData.getTulongDunongRequirements()
            )
        );
@@ -185,6 +192,9 @@ public class ScholarshipEligibility {
        scholarships.add(
            new SocioeconomicScholarship(
                "TES",
+               3.00,
+               1, 
+               4,
                300000,
                ScholarshipData.getTESRequirements()
            )
@@ -192,15 +202,10 @@ public class ScholarshipEligibility {
 
        scholarships.add(
            new SocioeconomicScholarship(
-               "SM Foundation",
-               350000,
-               ScholarshipData.getSMRequirements()
-           )
-       );
-
-       scholarships.add(
-           new SocioeconomicScholarship(
                "Ayala Foundation",
+               2.25,
+               1,
+               3,
                350000,
                ScholarshipData.getAyalaRequirements()
            )
@@ -209,6 +214,9 @@ public class ScholarshipEligibility {
        scholarships.add(
            new SocioeconomicScholarship(
                "Megaworld Scholarship",
+               2.25,
+               1,
+               3,
                350000,
                ScholarshipData.getMegaworldRequirements()
            )
